@@ -34,10 +34,8 @@ import 'package:custom_switcher/custom_switcher.dart';
 
 For a more detail example please take a look at the `example` folder.
 
-## Example
+## Demo
 
-<img src="" width="250" height="450">
-<img src="" width="250" height="450">
 
 ## -
 
