@@ -1,5 +1,4 @@
 
-import 'package:custom_switcher/ItemCustomSwitcher.dart';
 import 'package:flutter/material.dart';
 
 class CustomSwitcher extends StatefulWidget {
@@ -118,4 +117,21 @@ class CustomSwitcherState extends State<CustomSwitcher> {
     _oldChildrenLength = widget.children.length;
     return child;
   }
+}
+
+
+class ItemCustomSwitcher {
+  Widget child;
+  Widget icon;
+  Color? backgroundColor;
+  BorderRadius? cardBorderRadius;
+  BorderSide? cardBorderSide;
+  EdgeInsets? cardMargin;
+  Color? cardShadowColor;
+  double? cardUnselectedWidht;
+
+  ItemCustomSwitcher({
+    required this.child, required this.icon, this.backgroundColor, this.cardBorderRadius,
+    this.cardBorderSide, this.cardMargin, this.cardShadowColor, this.cardUnselectedWidht
+  });
 }
