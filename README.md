@@ -36,10 +36,10 @@ For a more detail example please take a look at the `example` folder.
 
 ## Demo
 
+<img src="https://raw.githubusercontent.com/Pilaba/CustomSwitcher/main/example/gif.gif" width="500" height="1000">
+
 
 ## -
 
 If something is missing, feel free to open a ticket or contribute!
-
-
 
