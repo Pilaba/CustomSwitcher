@@ -1,7 +1,7 @@
 name: custom_switcher
-description: Flutter UI widget
-version: 0.0.1
-homepage:
+description: Flutter UI widget similar to "content switcher"
+version: 1.0.0
+repository: https://github.com/Pilaba/CustomSwitcher
 
 environment:
   sdk: '>=2.19.3 <3.0.0'

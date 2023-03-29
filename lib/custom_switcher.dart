@@ -64,8 +64,8 @@ class CustomSwitcherState extends State<CustomSwitcher> {
   double _maxWidht(ItemCustomSwitcher item) => _totalWidgetWidht - ((widget.children.length - 1) * (_minWidht(item)));
 
   //=> Public
-  int get currentIndex => this._index;
-  void setIndex(int index) => setState(() { this._index = index; });
+  int get currentIndex => _index;
+  void setIndex(int index) => setState(() { _index = index; });
 
   @override
   Widget build(BuildContext context) {
@@ -75,7 +75,7 @@ class CustomSwitcherState extends State<CustomSwitcher> {
     var child = Row(
       children: widget.children.map((item) {
         var index      = widget.children.indexOf(item);
-        var isSelected = this._index == index;
+        var isSelected = _index == index;
         var minWidht   = _minWidht(item);
         var maxWidht   = _maxWidht(item);
 
@@ -103,7 +103,7 @@ class CustomSwitcherState extends State<CustomSwitcher> {
                   ],
                 ),
                 onTap: () async {
-                  this._index = index;
+                  _index = index;
                   if(mounted) setState(() {  });
 
                   widget.onChangue?.call(index);
