@@ -5,7 +5,7 @@ Customizable UI widget made for flutter similar to a content switcher
 
 ## Installations
 
-Add `top_modal_sheet: ^1.0.0` in your `pubspec.yaml` dependencies. And import it:
+Add `custom_switcher: ^1.0.0` in your `pubspec.yaml` dependencies. And import it:
 
 ```dart
 import 'package:custom_switcher/custom_switcher.dart';
